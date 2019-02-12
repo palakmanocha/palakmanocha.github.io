@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Palak | UIET</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+        function toBlack(){
+            var A=document.getElementsByTagName("a");
+            for(var i=0;i<A.length;i++){
+                A[i].style.color="black";
+            }
+            var I=document.getElementsByTagName("i");
+            for(var j=0;j<A.length;j++){
+                I[j].style.color="black";
+            }
+        }
+        function toWhite(){
+            var A=document.getElementsByTagName("a");
+            for(var i=0;i<A.length;i++){
+                A[i].style.color="white";
+            }
+            var I=document.getElementsByTagName("i");
+            for(var j=0;j<A.length;j++){
+                I[j].style.color="white";
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id='navbar' class='Nav'>
+        <div class='social'>
+            <a href="https://www.facebook.com/palakmanocha87">
+                <i class='fa fa-facebook fa-2x'></i>
+            </a>
+            <a href="https://www.instagram.com/palakmanocha27/">
+                <i class='fa fa-instagram fa-2x'></i>
+            </a>
+            <a href="https://www.linkedin.com/in/palak-manocha-176b51151/">
+                <i class='fa fa-linkedin fa-2x'></i>
+            </a>
+        </div>
+    </div>
+    <div id='home' class='Home'>
+            <div class='head'>
+                <h1> Palak Manocha</h1>
+                <p>Growing Technology - Growing Us</p>
+            </div>
+        </div>
+    <div id='sd' class='Sidebar'>
+            <div class='main'>
+                <ul  type="none">
+                    <li><a onclick=toWhite() href="#home">
+                    <i class="fa fa-home fa-2x" aria-hidden="true"></i>
+                    <span>Home</span></a>
+                    </li>
+                    <li><a onclick=toWhite() href="#about">
+                        <i class="fa fa-user-circle fa-2x" aria-hidden="true"></i>
+                        <span>About</span></a>
+                    </li>
+                    <li>
+                    <a onclick=toBlack() href="#skills">
+                        <i class="fa fa-line-chart fa-2x" aria-hidden="true"></i>   
+                        <span>Skills</span></a>                 
+                    </li>
+                    <li>
+                        <a onclick=toWhite() href="#contact">
+                        <i class="fa fa-address-book-o fa-2x" aria-hidden="true"></i>  
+                        <span>Contact</span>
+                        </a>                 
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id='skills' class='Skills'>
+                <div class='skl'>
+                    <div class='pic-con col-lg-2'>
+                      <img class='pic' height='250px' width='100%' src="https://images.pexels.com/photos/34676/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350" alt=""/>
+                      <p>C</p>
+                    </div>
+                    <div class='pic-con col-lg-4'>
+                      <img class='pic' height='250px' width='100%' src="https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?auto=compress&cs=tinysrgb&h=350" alt=""/>
+                      <p>C++</p>
+                    </div>
+                    <div class='pic-con col-lg-5'>
+                      <img class='pic' height='250px' width='100%' src="https://images.pexels.com/photos/614117/pexels-photo-614117.jpeg?auto=compress&cs=tinysrgb&h=350" alt=""/>
+                      <p>JavaScript</p>
+                    </div>
+                  
+                    <div class='pic-con col-lg-4'>
+                      <img class='pic' height='250px' width='100%' src="https://images.pexels.com/photos/270488/pexels-photo-270488.jpeg?auto=compress&cs=tinysrgb&h=350" alt=""/>
+                      <p>Html</p>
+                    </div>
+                    <div class='pic-con col-lg-3'>
+                      <img class='pic' height='250px' width='100%' src="https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""/>
+                      <p>CSS</p>
+                    </div>
+                    <div class='pic-con col-lg-4'> 
+                      <img class='pic' height='250px' width='100%' src="https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&h=350" alt=""/>
+                      <p>ReactJs</p>
+                    </div>
+                </div>
+              </div>
+    <div id='about' class='About'>
+        <div class='abt'>
+            <div class='content'>
+                <h1>About</h1>
+                <div class='text'>
+                    Hey! This is Palak Manocha from Jalandhar (Punjab) currently persuing Batchelor's of Engineering in Computer Sciences at Universsity Institute Of Engineering and Technology, Panjab University, Chandigarh.
+                    My interests lie in  Web Designing, love spending time with Divs and Components. Also keen to work with Machine Learning and Artifcial Intelligence.
+                    <br/>
+                    <br/>
+                    My hobbies are Singing and Doodling. I am fascinated by idea of poems with less words and more emotions.
+                    I believe in being lazy and working smart rather than working hard. 
+                </div>
+            </div>
+            <div class='img-con'>
+                <div class='transparent1'>
+                    <div class='white'></div>
+                </div>
+                <div class='img'>
+                </div>
+                <div class='transparent2'>
+                    <div class='white'></div>                        
+                </div>
+            </div>
+        </div>
+    </div>
+    <div  class="Contact" id="contact">
+        <div class="con">
+        <h1 style="text-align: center">Hey! Let's Talk</h1>
+            <form action="">
+                <input placeholder="Your Name" type="text"/>
+                <input placeholder="Your Email"type="text" name="" id=""/><br/>
+                <input class="double" placeholder="Subject"type="text" name="" id=""/><br/>
+                <textarea class="double" placeholder="Message" name="" id="" cols="30" rows="10"></textarea><br/>
+                <button class="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
